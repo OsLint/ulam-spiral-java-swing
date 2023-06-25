@@ -15,7 +15,6 @@ public class Main extends JFrame {
     public Main() {
         super("Ulam Spiral");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-       // setExtendedState(JFrame.MAXIMIZED_BOTH);
         setVisible(true);
         setLocationRelativeTo(null);
         setBackground(Color.white);
@@ -23,8 +22,8 @@ public class Main extends JFrame {
         int screenWidth = screenSize.width;
         int screenHeight = screenSize.height;
 
-        setSize(size, size); // Set the size of the window to the value of 'size'
-        setLocation(screenWidth / 2 - size / 2, screenHeight / 2 - size / 2); // Center the window on the screen
+        setSize(size, size);
+        setLocation(screenWidth / 2 - size / 2, screenHeight / 2 - size / 2);
 
     }
 
@@ -33,7 +32,6 @@ public class Main extends JFrame {
         try {
             return Integer.parseInt(input);
         } catch (NumberFormatException e) {
-            // Invalid input, use a default size
             return 100;
         }
     }
