@@ -28,6 +28,7 @@ This program generates an Ulam Spiral, a visualization of prime numbers in a spi
 9. The `angle` variable keeps track of the current angle of movement in degrees.
 10. The loop continues until all the cells in the spiral are processed.
 <img width="494" alt="Ulam Spiral" src="https://github.com/oskalbarczyk/ulam-spiral-java-swing/assets/106467480/8a66b7a0-47e4-4890-9599-1b727ce451c6">
+
 ## Note
 
 - If the user enters an invalid input or closes the dialog box without entering a value, a default size of 100 is used for the spiral.
